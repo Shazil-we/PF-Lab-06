@@ -9,7 +9,7 @@ int main(){
         nextTerm = t1 + t2;
         t1 = t2;
         t2 = nextTerm;
-        if (t1 > num)  // Stop if next Fibonacci number exceeds the input number
+        if (t1 > num)  
             break;
     }
     printf("\n");
